@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bbfd58ae70fc470db96e12c4f55ab6fe"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/userid"
+        android:layout_width="307dp"
+        android:layout_height="48dp"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:autofillHints="User Id"
+        android:color="#FFFFFFFF"
+        android:hint="@string/user_id1"
+        android:inputType="text"
+        android:layerType="hardware"
+        android:textColorHint="#FFFFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="307dp"
+        android:layout_height="48dp"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:autofillHints="Password"
+        android:color="#FFFFFFFF"
+        android:hint="@string/password1"
+        android:inputType="numberPassword"
+        android:layerType="hardware"
+        android:textColorHint="#FFFFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="144sp"
+        android:layout_height="50sp"
+        android:background="#00000000"
+        android:text="@string/signin1"
+        android:textColor="#FFFFFFFF"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:strokeColor="#F2FFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="402dp"
+        tools:visibility="visible" />
+
+    <androidx.constraintlayout.utils.widget.MotionLabel
+        android:layout_width="217dp"
+        android:layout_height="33dp"
+        android:text="@string/forget_password1"
+        android:textColor="#FFFFFFFF"
+        android:textSize="14sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <androidx.constraintlayout.utils.widget.MotionLabel
+        android:layout_width="199dp"
+        android:layout_height="26dp"
+        android:text="@string/register_new_user1"
+        android:textColor="#FFFFFFFF"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="623dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
